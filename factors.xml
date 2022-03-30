@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EmissionFactors>
+<EmissionFactor id="f1" name="华东电网" year="0" value="0.788" emmisionType="CO2" emmisionUnit="tCO2e"/>
+<EmissionFactor id="f2" name="华北电网" year="0" value="0.688" emmisionType="CO2" emmisionUnit="tCO2e"/>
+<EmissionFactor id="f3" name="华中电网" year="0" value="0.588" emmisionType="CO2" emmisionUnit="tCO2e"/>
+<EmissionFactor id="f4" name="华南电网" year="0" value="0.488" emmisionType="CO2" emmisionUnit="tCO2e"/>
+</EmissionFactors>

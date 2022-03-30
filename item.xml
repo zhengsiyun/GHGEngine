@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EmissionItem id="301" lable="条目" emissionType="co2" unit="t" formulaType="free" enable="true">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>

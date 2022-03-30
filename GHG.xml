@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GPGCalculateModel id="001" lable="测试模型-电厂">
+    <Description>这是一个电厂的排放计算模型</Description>
+    <EmissionCatalog id="201" lable="类型1" type="外购电力" scope="2" enable="true">
+        <EmissionItem id="301" lable="条目1" emissionType="co2" unit="t" formulaType="free" enable="true">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+        <EmissionItem id="302" lable="条目2" emissionType="co2" unit="t" formulaType="free" enable="true">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+        <EmissionItem id="303" lable="条目3" emissionType="co2" unit="t" formulaType="free" enable="false">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+    </EmissionCatalog>
+    <EmissionCatalog id="201" lable="类型2" type="外购电力" scope="2" enable="true">
+        <EmissionItem id="301" lable="条目1" emissionType="co2" unit="t" formulaType="free" enable="true">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+        <EmissionItem id="302" lable="条目2" emissionType="co2" unit="t" formulaType="free" enable="true">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+        <EmissionItem id="303" lable="条目3" emissionType="co2" unit="t" formulaType="free" enable="false">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+    </EmissionCatalog>
+    <EmissionCatalog id="201" lable="类型3" type="外购电力" scope="2" enable="true">
+        <EmissionItem id="301" lable="条目1" emissionType="co2" unit="t" formulaType="free" enable="true">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+        <EmissionItem id="302" lable="条目2" emissionType="co2" unit="t" formulaType="free" enable="true">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+        <EmissionItem id="303" lable="条目3" emissionType="co2" unit="t" formulaType="free" enable="false">(($输出电力电表$ * #f1#) - $外购电力电表$) * #f2#</EmissionItem>
+    </EmissionCatalog>
+
+</GPGCalculateModel>
